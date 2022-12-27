@@ -1,0 +1,17 @@
+Create Database "EmployeePostDB";
+
+//JobPost Table
+Create Table "JobPost"
+(
+	"PostId" int primary key
+)
+
+//Emp Post Table
+create table "EmployeePost"
+(
+    "PostId" int references "JobPost",
+    "EmpId" char(6) references "Employee",
+    "AppliedDate" date not null,
+    "ApplicationStatus" text not null check ("ApplicationStatus" in ("Reviewing","Accepted","Rejected")) default "Reviewing",
+    primary key("PostId", "EmpId")
+);

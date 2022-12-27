@@ -1,0 +1,22 @@
+Create Database "EmployeeSkillDB";
+
+//Employee Table
+create table "Employee"
+(
+    "EmpId" char(6) primary key
+);
+
+//Skill Table
+create table "Skill"
+(
+    "SkillId" char(6) primary key
+);
+
+//Emp Skill Table
+create table "EmployeeSkill"
+(
+    "EmpId" char(6) references "Employee",
+    "SkillId" char(6) references "Skill",
+    "SkillExp" int not null,
+    primary key("EmpId", "SkillId")
+);

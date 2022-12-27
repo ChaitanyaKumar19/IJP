@@ -1,0 +1,44 @@
+CREATE DATABASE "PortalDB"; 
+
+//Job Table
+create table "Job"
+(
+    "JobId" char(6) primary key,
+    "JobTitle" text not null,
+    "JobDescription" text not null,
+    "Salary" numeric not null
+);
+
+ 
+
+//Skill Table
+create table "Skill"
+(
+    "SkillId" char(6) primary key,
+    "SkillName" text not null,
+    "SkillLevel" char(1) not null check ("SkillLevel" in ('B','I','A'))
+);
+
+ 
+
+//Job Skill Table
+create table "JobSkill"
+(
+    "JobId" char(6) references "Job",
+    "SkillId" char(6) references "Skill",
+    "Exp" int not null,
+    primary key("JobId", "SkillId")
+);
+
+ 
+
+//Employee Table
+create table "Employee"
+(
+    "EmpId" char(6) primary key,
+    "EmpName" text not null,
+    "EmailId" text not null,
+    "PhoneNo" numeric not null,
+    "TotalExp" int not null,
+    "JobId" char(6) references "Job"
+);
