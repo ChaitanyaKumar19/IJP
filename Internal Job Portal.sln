@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33130.400
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobPostLibrary", "JobPostLibrary\JobPostLibrary.csproj", "{E0209835-EB34-4553-B6E7-B2EEB3A7291D}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationService", "AuthenticationService\AuthenticationService.csproj", "{3122554D-7773-4658-91CE-FD7790EF538F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "ApiGateway\ApiGateway.csproj", "{34B3ED9A-0852-4E44-8B0B-A1586F2EEB7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalDBLibrary", "PortalDBLibrary\PortalDBLibrary.csproj", "{38103301-AB45-4E32-A572-3545B5AFF502}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{34B3ED9A-0852-4E44-8B0B-A1586F2EEB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34B3ED9A-0852-4E44-8B0B-A1586F2EEB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34B3ED9A-0852-4E44-8B0B-A1586F2EEB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38103301-AB45-4E32-A572-3545B5AFF502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38103301-AB45-4E32-A572-3545B5AFF502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38103301-AB45-4E32-A572-3545B5AFF502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38103301-AB45-4E32-A572-3545B5AFF502}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
