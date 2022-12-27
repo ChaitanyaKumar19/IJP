@@ -11,7 +11,7 @@ namespace JobPostLibrary
     public class JobPostRepoAysnc : IJobPostRepoAsync
     {
         JobPostDBEntities jpEntity = new JobPostDBEntities();
-        public async void DeleteFromJobPostAync(int postId)
+        public async Task DeleteFromJobPostAync(int postId)
         {
             JobPost post2del = await(from jp in jpEntity.JobPosts where jp.PostId == postId select jp).FirstAsync();
             jpEntity.JobPosts.Remove(post2del);
@@ -30,13 +30,13 @@ namespace JobPostLibrary
             return post;
         }
 
-        public async void InsertIntoJobPostAsync(JobPost post)
+        public async Task InsertIntoJobPostAsync(JobPost post)
         {
             jpEntity.JobPosts.Add(post);
             await jpEntity.SaveChangesAsync();
         }
 
-        public async void UpdateIntoJobPostAync(int postId, JobPost post)
+        public async Task UpdateIntoJobPostAync(int postId, JobPost post)
         {
             JobPost post2edit = await(from jp in jpEntity.JobPosts where jp.PostId == postId select jp).FirstAsync();
             post2edit.JobId = post.JobId;

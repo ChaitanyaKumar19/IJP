@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace JobPostLibrary
 {
-    public interface IJobPostRepo
+    public interface IJobPostRepoAsync
     {
         Task<List<JobPost>> GetAllJobsAsync();
-        Task<JobPost> GetJobsByPostId(int postId);
-        void InsertIntoJobPost(JobPost post);
-        void UpdateIntoJobPost(int postId, JobPost post);
-        void DeleteFromJobPost(int postId);
+        Task<JobPost> GetJobsByPostIdAsync(int postId);
+        Task InsertIntoJobPostAsync(JobPost post);
+        Task UpdateIntoJobPostAync(int postId, JobPost post);
+        Task DeleteFromJobPostAync(int postId);
     }
 }
