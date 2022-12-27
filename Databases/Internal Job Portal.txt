@@ -1,0 +1,60 @@
+Internal Job Portal (IJP)
+===================
+* IJP is an intranet MVC app using which managers can post new job requirements, and the employees can apply to posted jobs, if they are interested and match the skillset required by the job.
+* The manager can check the skill matrix of the employee and decide to approve or reject his/her application.
+* The admin is responsible for maintaining the Job, Skill, Job Skill and Employee tables.
+
+* Following are the tables in IJP database:
+* Job Table
+Job Id
+Job Title
+Job Description
+Salary
+
+* Skill Table
+Skill Id
+Skill Name
+Skill Level (B/I/A)
+
+* Job Skill Table
+Job Id
+Skill Id
+Experience (int years)
+
+* Employee Table
+Emp Id
+Emp Name
+Email Id
+Phone No.
+Total Experience (in years)
+Job Id
+
+* Emp Skill Table
+Emp Id
+Skill Id
+Skill Experience (in years)
+
+* Job Post Table
+Post Id (IDENTITY)
+Job Id
+Date of Posting
+Last Date to Apply
+No. of Vacancies
+
+* Emp Post Table
+Post Id
+Emp Id
+Applied Date
+Application Status (Reviewing/Accepted/Rejected)
+
+* Implement the project using microservices architecture.
+* Add an ASP.NET Core MVC App named 'IJPMvcApp' with 'Individual User Accounts' authentication.
+* Register all the employees with the app.
+* Assign a role to each employee according to his job.
+* Add the following controllers and authorize the controllers/actions accordingly:
+1) EmpSkill: Any employee(including managers) can create/view/edit/delete their skills.
+2) JobPost: Only managers can create/edit/delete job posts. Any employee can view the job posts.
+3) EmpPost: Any employee(including managers) can create/view. Only managers can edit or delete.
+* Code all the actions and create views for all actions.
+* Also implement logging in all actions in all controllers.
+
