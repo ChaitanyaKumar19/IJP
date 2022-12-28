@@ -10,3 +10,15 @@ C:\Users\cboddu\Desktop\IJP\PortalDBLibrary\obj\Debug\PortalDBLibrary.csproj.Cor
 C:\Users\cboddu\Desktop\IJP\PortalDBLibrary\obj\Debug\PortalDBLibrary.csproj.CopyComplete
 C:\Users\cboddu\Desktop\IJP\PortalDBLibrary\obj\Debug\PortalDBLibrary.dll
 C:\Users\cboddu\Desktop\IJP\PortalDBLibrary\obj\Debug\PortalDBLibrary.pdb
+C:\Users\rsiripuram\Documents\IJP\PortalDBLibrary\bin\Debug\PortalDBLibrary.dll.config
+C:\Users\rsiripuram\Documents\IJP\PortalDBLibrary\bin\Debug\PortalDBLibrary.dll
+C:\Users\rsiripuram\Documents\IJP\PortalDBLibrary\bin\Debug\PortalDBLibrary.pdb
+C:\Users\rsiripuram\Documents\IJP\PortalDBLibrary\bin\Debug\EntityFramework.dll
+C:\Users\rsiripuram\Documents\IJP\PortalDBLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rsiripuram\Documents\IJP\PortalDBLibrary\bin\Debug\EntityFramework.xml
+C:\Users\rsiripuram\Documents\IJP\PortalDBLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rsiripuram\Documents\IJP\PortalDBLibrary\obj\Debug\PortalDBLibrary.csproj.AssemblyReference.cache
+C:\Users\rsiripuram\Documents\IJP\PortalDBLibrary\obj\Debug\PortalDBLibrary.csproj.CoreCompileInputs.cache
+C:\Users\rsiripuram\Documents\IJP\PortalDBLibrary\obj\Debug\PortalDBLibrary.csproj.CopyComplete
+C:\Users\rsiripuram\Documents\IJP\PortalDBLibrary\obj\Debug\PortalDBLibrary.dll
+C:\Users\rsiripuram\Documents\IJP\PortalDBLibrary\obj\Debug\PortalDBLibrary.pdb

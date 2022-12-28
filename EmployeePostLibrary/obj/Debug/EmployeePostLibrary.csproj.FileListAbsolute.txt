@@ -10,3 +10,15 @@ C:\Users\cboddu\Desktop\IJP\EmployeePostLibrary\obj\Debug\EmployeePostLibrary.cs
 C:\Users\cboddu\Desktop\IJP\EmployeePostLibrary\obj\Debug\EmployeePostLibrary.csproj.CopyComplete
 C:\Users\cboddu\Desktop\IJP\EmployeePostLibrary\obj\Debug\EmployeePostLibrary.dll
 C:\Users\cboddu\Desktop\IJP\EmployeePostLibrary\obj\Debug\EmployeePostLibrary.pdb
+C:\Users\rsiripuram\Documents\IJP\EmployeePostLibrary\bin\Debug\EmployeePostLibrary.dll.config
+C:\Users\rsiripuram\Documents\IJP\EmployeePostLibrary\bin\Debug\EmployeePostLibrary.dll
+C:\Users\rsiripuram\Documents\IJP\EmployeePostLibrary\bin\Debug\EmployeePostLibrary.pdb
+C:\Users\rsiripuram\Documents\IJP\EmployeePostLibrary\bin\Debug\EntityFramework.dll
+C:\Users\rsiripuram\Documents\IJP\EmployeePostLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rsiripuram\Documents\IJP\EmployeePostLibrary\bin\Debug\EntityFramework.xml
+C:\Users\rsiripuram\Documents\IJP\EmployeePostLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rsiripuram\Documents\IJP\EmployeePostLibrary\obj\Debug\EmployeePostLibrary.csproj.AssemblyReference.cache
+C:\Users\rsiripuram\Documents\IJP\EmployeePostLibrary\obj\Debug\EmployeePostLibrary.csproj.CoreCompileInputs.cache
+C:\Users\rsiripuram\Documents\IJP\EmployeePostLibrary\obj\Debug\EmployeePostLibrary.csproj.CopyComplete
+C:\Users\rsiripuram\Documents\IJP\EmployeePostLibrary\obj\Debug\EmployeePostLibrary.dll
+C:\Users\rsiripuram\Documents\IJP\EmployeePostLibrary\obj\Debug\EmployeePostLibrary.pdb

@@ -10,3 +10,15 @@ C:\Users\cboddu\Desktop\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.
 C:\Users\cboddu\Desktop\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.csproj.CopyComplete
 C:\Users\cboddu\Desktop\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.dll
 C:\Users\cboddu\Desktop\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.pdb
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\bin\Debug\EmployeeSkillLibrary.dll.config
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\bin\Debug\EmployeeSkillLibrary.dll
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\bin\Debug\EmployeeSkillLibrary.pdb
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\bin\Debug\EntityFramework.dll
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\bin\Debug\EntityFramework.xml
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.csproj.AssemblyReference.cache
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.csproj.CoreCompileInputs.cache
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.csproj.CopyComplete
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.dll
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.pdb
