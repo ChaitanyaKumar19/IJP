@@ -13,13 +13,14 @@ namespace JobPostService.Controllers
     {
         IJobPostRepoAsync jobPostRepo = new JobPostRepoAysnc();
         [HttpGet]
-        [Route("api/JobPosts/GetAllPosts")]
+        [Route("api/JobPost/GetAllPosts")]
         public async Task<IHttpActionResult> GetAll()
         {
             List<JobPost> posts = await jobPostRepo.GetAllJobsAsync();
             return Ok<List<JobPost>>(posts);
         }
         [HttpGet]
+        [Route("api/JobPost/{postId}")]
         public async Task<IHttpActionResult> GetOne(int postId)
         {
             try
@@ -39,12 +40,14 @@ namespace JobPostService.Controllers
             return Created<JobPost>("/api/JobPost", post);
         }
         [HttpPut]
+        [Route("api/JobPost/{postId}")]
         public async Task<IHttpActionResult> Update(int postId, JobPost post)
         {
             await jobPostRepo.UpdateIntoJobPostAync(postId, post);
             return Ok<JobPost>(post);
         }
         [HttpDelete]
+        [Route("api/JobPost/{postId}")]
         public async Task<IHttpActionResult> Delete(int postId)
         {
             await jobPostRepo.DeleteFromJobPostAync(postId);
