@@ -13,7 +13,7 @@ namespace JobPostLibrary
         JobPostDBEntities jpEntity = new JobPostDBEntities();
         public async Task DeleteFromJobPostAync(int postId)
         {
-            JobPost post2del = await(from jp in jpEntity.JobPosts where jp.PostId == postId select jp).FirstAsync();
+            JobPost post2del = await GetJobsByPostIdAsync(postId);
             jpEntity.JobPosts.Remove(post2del);
             await jpEntity.SaveChangesAsync();
         }
@@ -26,8 +26,16 @@ namespace JobPostLibrary
 
         public async Task<JobPost> GetJobsByPostIdAsync(int postId)
         {
-            JobPost post = await (from jp in jpEntity.JobPosts where jp.PostId == postId select jp).FirstAsync();
-            return post;
+            try
+            {
+                JobPost post = await (from jp in jpEntity.JobPosts where jp.PostId == postId select jp).FirstAsync();
+                return post;
+            }
+            catch
+            {
+                throw new Exception("No Such Job Post!");
+            }
+            
         }
 
         public async Task InsertIntoJobPostAsync(JobPost post)
@@ -38,11 +46,12 @@ namespace JobPostLibrary
 
         public async Task UpdateIntoJobPostAync(int postId, JobPost post)
         {
-            JobPost post2edit = await(from jp in jpEntity.JobPosts where jp.PostId == postId select jp).FirstAsync();
+            JobPost post2edit = await GetJobsByPostIdAsync(postId);
             post2edit.JobId = post.JobId;
             post2edit.LastDatetoApply = post.LastDatetoApply;
             post2edit.NoOfVacancies = post.NoOfVacancies;
             post2edit.DoP = post.DoP;
+            await jpEntity.SaveChangesAsync();
         }
     }
 }
