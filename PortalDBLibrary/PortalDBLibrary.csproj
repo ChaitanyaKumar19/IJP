@@ -53,7 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="IPortalRepoAsync.cs" />
+    <Compile Include="PortalRepoAsync.cs" />
     <Compile Include="Employee.cs">
       <DependentUpon>PortalDB.tt</DependentUpon>
     </Compile>
