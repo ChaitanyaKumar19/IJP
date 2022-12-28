@@ -75,6 +75,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EmployeeSkillDB.edmx</DependentUpon>
     </Compile>
+    <Compile Include="EmployeeSkillRepoAsync.cs" />
+    <Compile Include="IEmployeeSkillRepoAsync.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Skill.cs">
       <DependentUpon>EmployeeSkillDB.tt</DependentUpon>
