@@ -94,7 +94,7 @@ namespace PortalDBLibrary
             }
             catch
             {
-                throw new Exception("No such Skill!");
+                throw new Exception("No such Post Id !");
             }
         }
     }

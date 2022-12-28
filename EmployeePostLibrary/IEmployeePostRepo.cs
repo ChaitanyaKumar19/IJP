@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeePostLibrary
 {
-    interface IEmployeePostRepo
+    public interface IEmployeePostRepo
     {
         Task<List<EmployeePost>> GetAllEmployeePostsAsync();
         Task<List<EmployeePost>> GetEmployeePostsByEmpIdAsync(string empId);

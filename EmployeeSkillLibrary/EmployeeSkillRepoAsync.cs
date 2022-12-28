@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeSkillLibrary
 {
-    class EmployeeSkillRepoAsync : IEmployeeSkillRepoAsync
+    public class EmployeeSkillRepoAsync : IEmployeeSkillRepoAsync
     {
         EmployeeSkillDBEntities esEnt = new EmployeeSkillDBEntities();
         public async Task DeleteEmployeeSkillAsync(string empId, string skillId)

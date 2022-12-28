@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeSkillLibrary
 {
-    interface IEmployeeSkillRepoAsync
+    public interface IEmployeeSkillRepoAsync
     {
         Task<List<EmployeeSkill>> GetAllEmployeeSkillsAsync();
         Task<List<EmployeeSkill>> GetEmployeeSkillsByEmpIdAsync(string empId);
