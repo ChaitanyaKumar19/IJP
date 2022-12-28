@@ -75,6 +75,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>EmployeePostDB.edmx</DependentUpon>
     </Compile>
+    <Compile Include="EmployeePostRepo.cs" />
+    <Compile Include="IEmployeePostRepo.cs" />
     <Compile Include="JobPost.cs">
       <DependentUpon>EmployeePostDB.tt</DependentUpon>
     </Compile>
