@@ -8,7 +8,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{1787EAB0-AFB8-466A-8026-4380F79C32DC}</ProjectGuid>
+    <ProjectGuid>{128E6D88-560C-489C-8E3F-EB4565631356}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -174,6 +174,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\EmployeePostApiRepo.cs" />
     <Compile Include="Models\EmployeeSkillApiRepo.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\JobPostApiRepoAsync.cs" />
@@ -254,24 +255,6 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\EmployeePostLibrary\EmployeePostLibrary.csproj">
-      <Project>{89dbbf43-e796-4703-83d2-03ef05f66683}</Project>
-      <Name>EmployeePostLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EmployeeSkillLibrary\EmployeeSkillLibrary.csproj">
-      <Project>{1f35481b-6938-4265-a136-7269b84fff4d}</Project>
-      <Name>EmployeeSkillLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\JobPostLibrary\JobPostLibrary.csproj">
-      <Project>{e0209835-eb34-4553-b6e7-b2eeb3a7291d}</Project>
-      <Name>JobPostLibrary</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PortalDBLibrary\PortalDBLibrary.csproj">
-      <Project>{38103301-ab45-4e32-a572-3545b5aff502}</Project>
-      <Name>PortalDBLibrary</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -288,7 +271,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>54454</DevelopmentServerPort>
+          <DevelopmentServerPort>49751</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>https://localhost:44344/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
