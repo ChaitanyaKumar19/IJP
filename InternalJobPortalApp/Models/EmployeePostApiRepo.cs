@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web;
+using System.Web.Mvc;
 using EmployeePostLibrary;
 using Newtonsoft.Json;
 
@@ -16,7 +17,7 @@ namespace InternalJobPortalApp.Models
         public EmployeePostApiRepo()
         {
             webApi = new HttpClient();
-            webApi.BaseAddress = new Uri("http://localhost:50601/api/EmployeePost/");
+            webApi.BaseAddress = new Uri("http://localhost:2000/api/EmployeePost/");
         }
         public async Task DeleteEmployeePostAsync(string empId, int postId)
         {
@@ -26,7 +27,7 @@ namespace InternalJobPortalApp.Models
 
         public async Task<List<EmployeePost>> GetAllEmployeePostsAsync()
         {
-            HttpResponseMessage response = await webApi.GetAsync("");
+            HttpResponseMessage response = await webApi.GetAsync(""+ "GetAll");
             string str = await response.Content.ReadAsStringAsync();
             List<EmployeePost> empPosts = JsonConvert.DeserializeObject<List<EmployeePost>>(str);
             return empPosts;
@@ -77,7 +78,6 @@ namespace InternalJobPortalApp.Models
             }
         }
 
-
         public async Task InsertEmployeePostAsync(EmployeePost empPost)
         {
             var json = JsonConvert.SerializeObject(empPost);
@@ -85,7 +85,6 @@ namespace InternalJobPortalApp.Models
             await webApi.PostAsync("", data);
 
         }
-
 
         public async Task UpdateEmployeePostAsync(string empId, int postId, EmployeePost empPost)
         {

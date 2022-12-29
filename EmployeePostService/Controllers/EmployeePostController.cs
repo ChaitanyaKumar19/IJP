@@ -14,7 +14,7 @@ namespace EmployeePostService.Controllers
         IEmployeePostRepo empPostRepo = new EmployeePostRepo();
 
         // GET: EmployeePost
-        [System.Web.Http.Route("api/EmployeePost/")]
+        [System.Web.Http.Route("api/EmployeePost/GetAll")]
         public async Task<IHttpActionResult> GetAllEmployeePosts()
         {
             List<EmployeePost> employeePosts = await empPostRepo.GetAllEmployeePostsAsync();
