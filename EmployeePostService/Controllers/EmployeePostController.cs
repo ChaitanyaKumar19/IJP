@@ -4,11 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
-using System.Web.Mvc;
 using EmployeePostLibrary;
 
 namespace EmployeePostService.Controllers
 {
+    [Authorize]
     public class EmployeePostController : ApiController
     {
         IEmployeePostRepo empPostRepo = new EmployeePostRepo();

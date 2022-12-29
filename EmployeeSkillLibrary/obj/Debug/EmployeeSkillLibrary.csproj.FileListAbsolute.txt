@@ -22,3 +22,15 @@ C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLi
 C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.csproj.CopyComplete
 C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.dll
 C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.pdb
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\EmployeeSkillLibrary\bin\Debug\EmployeeSkillLibrary.dll.config
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\EmployeeSkillLibrary\bin\Debug\EmployeeSkillLibrary.dll
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\EmployeeSkillLibrary\bin\Debug\EmployeeSkillLibrary.pdb
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\EmployeeSkillLibrary\bin\Debug\EntityFramework.dll
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\EmployeeSkillLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\EmployeeSkillLibrary\bin\Debug\EntityFramework.xml
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\EmployeeSkillLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.csproj.AssemblyReference.cache
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.csproj.CoreCompileInputs.cache
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.csproj.CopyComplete
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.dll
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.pdb

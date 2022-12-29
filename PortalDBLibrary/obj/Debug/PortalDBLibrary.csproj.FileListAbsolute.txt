@@ -22,3 +22,14 @@ C:\Users\rsiripuram\Documents\IJP\PortalDBLibrary\obj\Debug\PortalDBLibrary.cspr
 C:\Users\rsiripuram\Documents\IJP\PortalDBLibrary\obj\Debug\PortalDBLibrary.csproj.CopyComplete
 C:\Users\rsiripuram\Documents\IJP\PortalDBLibrary\obj\Debug\PortalDBLibrary.dll
 C:\Users\rsiripuram\Documents\IJP\PortalDBLibrary\obj\Debug\PortalDBLibrary.pdb
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\PortalDBLibrary\bin\Debug\PortalDBLibrary.dll.config
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\PortalDBLibrary\bin\Debug\PortalDBLibrary.dll
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\PortalDBLibrary\bin\Debug\PortalDBLibrary.pdb
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\PortalDBLibrary\bin\Debug\EntityFramework.dll
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\PortalDBLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\PortalDBLibrary\bin\Debug\EntityFramework.xml
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\PortalDBLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\PortalDBLibrary\obj\Debug\PortalDBLibrary.csproj.CoreCompileInputs.cache
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\PortalDBLibrary\obj\Debug\PortalDBLibrary.csproj.CopyComplete
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\PortalDBLibrary\obj\Debug\PortalDBLibrary.dll
+C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\PortalDBLibrary\obj\Debug\PortalDBLibrary.pdb

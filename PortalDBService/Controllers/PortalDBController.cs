@@ -9,6 +9,7 @@ using PortalDBLibrary;
 
 namespace PortalDBService.Controllers
 {
+    [Authorize]
     public class PortalDBController : ApiController
     {
         IPortalRepoAsync portalRepo = new PortalRepoAsync();

@@ -9,6 +9,7 @@ using JobPostLibrary;
 
 namespace JobPostService.Controllers
 {
+    [Authorize]
     public class JobPostController : ApiController
     {
         IJobPostRepoAsync jobPostRepo = new JobPostRepoAysnc();
