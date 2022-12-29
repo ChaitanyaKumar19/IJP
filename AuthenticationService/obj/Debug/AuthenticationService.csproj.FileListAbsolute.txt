@@ -273,3 +273,11 @@ C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\AuthenticationSer
 C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\AuthenticationService\obj\Debug\AuthenticationService.csproj.CopyComplete
 C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\AuthenticationService\obj\Debug\AuthenticationService.dll
 C:\Users\sdandapani\Documents\C#\Assignment\New folder (2)\IJP\AuthenticationService\obj\Debug\AuthenticationService.pdb
+C:\Users\rsiripuram\Documents\IJP\AuthenticationService\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\rsiripuram\Documents\IJP\AuthenticationService\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\rsiripuram\Documents\IJP\AuthenticationService\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\rsiripuram\Documents\IJP\AuthenticationService\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\rsiripuram\Documents\IJP\AuthenticationService\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\rsiripuram\Documents\IJP\AuthenticationService\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\rsiripuram\Documents\IJP\AuthenticationService\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\rsiripuram\Documents\IJP\AuthenticationService\bin\System.IdentityModel.Tokens.Jwt.xml

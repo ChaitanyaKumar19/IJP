@@ -8,7 +8,7 @@ using EmployeePostLibrary;
 
 namespace EmployeePostService.Controllers
 {
-    [Authorize]
+    /*[Authorize]*/
     public class EmployeePostController : ApiController
     {
         IEmployeePostRepo empPostRepo = new EmployeePostRepo();

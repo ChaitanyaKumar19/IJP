@@ -9,7 +9,14 @@ namespace EmployeePostLibrary
 {
     public class EmployeePostRepo : IEmployeePostRepo
     {
-        EmployeePostDBEntities ent = new EmployeePostDBEntities();
+        static EmployeePostDBEntities ent = new EmployeePostDBEntities();
+
+        public async static void Add(int pid)
+        {
+
+            ent.JobPosts.Add(new JobPost() { PostId = pid });
+            await ent.SaveChangesAsync();
+        }
         public async Task DeleteEmployeePostAsync(string empId, int postId)
         {
             EmployeePost post2del = await GetEmployeePostByIdAsync(empId,postId);
