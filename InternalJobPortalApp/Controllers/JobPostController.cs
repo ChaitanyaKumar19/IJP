@@ -31,6 +31,7 @@ namespace InternalJobPortalApp.Controllers
         }
 
         // GET: JobPost/Create
+        [Authorize(Roles = "Manager")]
         public ActionResult Create()
         {
             return View();
