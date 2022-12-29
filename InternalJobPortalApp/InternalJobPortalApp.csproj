@@ -255,6 +255,24 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EmployeePostLibrary\EmployeePostLibrary.csproj">
+      <Project>{89dbbf43-e796-4703-83d2-03ef05f66683}</Project>
+      <Name>EmployeePostLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmployeeSkillLibrary\EmployeeSkillLibrary.csproj">
+      <Project>{1f35481b-6938-4265-a136-7269b84fff4d}</Project>
+      <Name>EmployeeSkillLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JobPostLibrary\JobPostLibrary.csproj">
+      <Project>{e0209835-eb34-4553-b6e7-b2eeb3a7291d}</Project>
+      <Name>JobPostLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PortalDBLibrary\PortalDBLibrary.csproj">
+      <Project>{38103301-ab45-4e32-a572-3545b5aff502}</Project>
+      <Name>PortalDBLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

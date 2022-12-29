@@ -106,3 +106,15 @@ C:\Users\rsiripuram\Documents\IJP\InternalJobPortalApp\obj\Debug\InternalJobPort
 C:\Users\rsiripuram\Documents\IJP\InternalJobPortalApp\obj\Debug\InternalJobPortalApp.csproj.CopyComplete
 C:\Users\rsiripuram\Documents\IJP\InternalJobPortalApp\obj\Debug\InternalJobPortalApp.dll
 C:\Users\rsiripuram\Documents\IJP\InternalJobPortalApp\obj\Debug\InternalJobPortalApp.pdb
+C:\Users\rsiripuram\Documents\IJP\InternalJobPortalApp\bin\EmployeePostLibrary.dll
+C:\Users\rsiripuram\Documents\IJP\InternalJobPortalApp\bin\EmployeeSkillLibrary.dll
+C:\Users\rsiripuram\Documents\IJP\InternalJobPortalApp\bin\JobPostLibrary.dll
+C:\Users\rsiripuram\Documents\IJP\InternalJobPortalApp\bin\PortalDBLibrary.dll
+C:\Users\rsiripuram\Documents\IJP\InternalJobPortalApp\bin\EmployeePostLibrary.pdb
+C:\Users\rsiripuram\Documents\IJP\InternalJobPortalApp\bin\EmployeePostLibrary.dll.config
+C:\Users\rsiripuram\Documents\IJP\InternalJobPortalApp\bin\EmployeeSkillLibrary.pdb
+C:\Users\rsiripuram\Documents\IJP\InternalJobPortalApp\bin\EmployeeSkillLibrary.dll.config
+C:\Users\rsiripuram\Documents\IJP\InternalJobPortalApp\bin\JobPostLibrary.pdb
+C:\Users\rsiripuram\Documents\IJP\InternalJobPortalApp\bin\JobPostLibrary.dll.config
+C:\Users\rsiripuram\Documents\IJP\InternalJobPortalApp\bin\PortalDBLibrary.pdb
+C:\Users\rsiripuram\Documents\IJP\InternalJobPortalApp\bin\PortalDBLibrary.dll.config
