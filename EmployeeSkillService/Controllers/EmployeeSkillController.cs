@@ -9,6 +9,7 @@ using EmployeeSkillLibrary;
 
 namespace EmployeeSkillService.Controllers
 {
+    [Authorize]
     public class EmployeeSkillController : ApiController
     {
         IEmployeeSkillRepoAsync empSkillRepo = new EmployeeSkillRepoAsync();
