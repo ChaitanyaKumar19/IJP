@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalDBLibrary", "PortalDB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalDBService", "PortalDBService\PortalDBService.csproj", "{9E1310E8-FB4D-4111-8800-E919EFEA01C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternalJobPortalApp", "InternalJobPortalApp\InternalJobPortalApp.csproj", "{128E6D88-560C-489C-8E3F-EB4565631356}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternalJobPortalApp", "InternalJobPortalApp\InternalJobPortalApp.csproj", "{EA1B099A-C2E8-4D3C-B708-14D7AF1E73B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,10 +71,10 @@ Global
 		{9E1310E8-FB4D-4111-8800-E919EFEA01C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E1310E8-FB4D-4111-8800-E919EFEA01C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E1310E8-FB4D-4111-8800-E919EFEA01C2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{128E6D88-560C-489C-8E3F-EB4565631356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{128E6D88-560C-489C-8E3F-EB4565631356}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{128E6D88-560C-489C-8E3F-EB4565631356}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{128E6D88-560C-489C-8E3F-EB4565631356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1B099A-C2E8-4D3C-B708-14D7AF1E73B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1B099A-C2E8-4D3C-B708-14D7AF1E73B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1B099A-C2E8-4D3C-B708-14D7AF1E73B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1B099A-C2E8-4D3C-B708-14D7AF1E73B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
