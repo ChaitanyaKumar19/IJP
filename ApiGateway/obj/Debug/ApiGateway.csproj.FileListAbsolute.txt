@@ -176,3 +176,13 @@ C:\Users\rsiripuram\Documents\IJP\ApiGateway\obj\Debug\ApiGateway.csproj.CoreCom
 C:\Users\rsiripuram\Documents\IJP\ApiGateway\obj\Debug\ApiGateway.csproj.CopyComplete
 C:\Users\rsiripuram\Documents\IJP\ApiGateway\obj\Debug\ApiGateway.dll
 C:\Users\rsiripuram\Documents\IJP\ApiGateway\obj\Debug\ApiGateway.pdb
+C:\Users\rsiripuram\Documents\IJP\ApiGateway\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\rsiripuram\Documents\IJP\ApiGateway\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\rsiripuram\Documents\IJP\ApiGateway\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\rsiripuram\Documents\IJP\ApiGateway\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\rsiripuram\Documents\IJP\ApiGateway\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\rsiripuram\Documents\IJP\ApiGateway\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\rsiripuram\Documents\IJP\ApiGateway\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\rsiripuram\Documents\IJP\ApiGateway\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\rsiripuram\Documents\IJP\ApiGateway\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\rsiripuram\Documents\IJP\ApiGateway\bin\System.Threading.Tasks.Extensions.xml

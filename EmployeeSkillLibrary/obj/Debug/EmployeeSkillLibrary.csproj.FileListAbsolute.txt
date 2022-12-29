@@ -17,7 +17,6 @@ C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\bin\Debug\EntityFramework
 C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\bin\Debug\EntityFramework.xml
 C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.csproj.AssemblyReference.cache
 C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.csproj.CoreCompileInputs.cache
 C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.csproj.CopyComplete
 C:\Users\rsiripuram\Documents\IJP\EmployeeSkillLibrary\obj\Debug\EmployeeSkillLibrary.dll
