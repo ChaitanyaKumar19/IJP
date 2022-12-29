@@ -321,3 +321,17 @@ C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\Microsoft.Owin.Securi
 C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\System.IdentityModel.Tokens.Jwt.pdb
 C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\System.IdentityModel.Tokens.Jwt.xml
 C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\System.Web.Http.Owin.xml
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\RabbitMQ.Client.dll
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\System.Buffers.dll
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\System.Memory.dll
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\System.Numerics.Vectors.dll
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\System.Threading.Channels.dll
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\RabbitMQ.Client.xml
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\System.Buffers.xml
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\System.Memory.xml
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\System.Numerics.Vectors.xml
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\System.Threading.Channels.xml
+C:\Users\rsiripuram\Documents\IJP\EmployeeSkillService\bin\System.Threading.Tasks.Extensions.xml

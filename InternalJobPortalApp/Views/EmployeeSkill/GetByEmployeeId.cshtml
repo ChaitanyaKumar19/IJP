@@ -1,0 +1,45 @@
+﻿@model IEnumerable<EmployeeSkillLibrary.EmployeeSkill>
+
+@{
+    ViewBag.Title = "GetByEmployeeId";
+}
+
+<h2>GetByEmployeeId</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.EmpId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SkillId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SkillExp)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmpId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SkillId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SkillExp)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { empId = item.EmpId, skillId = item.SkillId }) |
+            @Html.ActionLink("Details", "Details", new { empId = item.EmpId, skillId = item.SkillId }) |
+            @Html.ActionLink("Delete", "Delete", new { empId = item.EmpId, skillId = item.SkillId })
+        </td>
+    </tr>
+}
+
+</table>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -17,7 +17,7 @@ namespace InternalJobPortalApp.Models
         public EmployeeSkillApiRepo()
         {
             webApi = new HttpClient();
-            webApi.BaseAddress = new Uri("http://localhost:50601/api/EmployeeSkill/");
+            webApi.BaseAddress = new Uri("http://localhost:3000/api/EmployeeSkill/");
         }
 
         public async Task<List<EmployeeSkill>> GetAllEmployeeSkills()
@@ -67,12 +67,12 @@ namespace InternalJobPortalApp.Models
         {
             var json = JsonConvert.SerializeObject(employeeSkill);
             var data = new StringContent(json, Encoding.UTF8, "application/json");
-            await webApi.PutAsync("" + empId + skillId, data);
+            await webApi.PutAsync("" + empId + "/" + skillId, data);
         }
 
         public async Task Delete(string empId, string skillId)
         {
-            await webApi.DeleteAsync("" + empId + skillId);
+            await webApi.DeleteAsync("" + empId + "/" + skillId);
         }
 
     }

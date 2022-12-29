@@ -1,0 +1,58 @@
+﻿@model JobPostLibrary.JobPost
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>JobPost</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PostId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PostId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.JobId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JobId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DoP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DoP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastDatetoApply)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastDatetoApply)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NoOfVacancies)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NoOfVacancies)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

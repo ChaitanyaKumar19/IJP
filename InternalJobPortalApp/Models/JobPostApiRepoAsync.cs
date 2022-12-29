@@ -16,7 +16,7 @@ namespace InternalJobPortalApp.Models
         public JobPostApiRepoAsync()
         {
             webApi = new HttpClient();
-            webApi.BaseAddress = new Uri("http://localhost:50574/api/JobPost/");
+            webApi.BaseAddress = new Uri("http://localhost:4000/api/JobPost/");
         }
         public async Task DeleteJobPostAsync(int postId)
         {

@@ -452,3 +452,17 @@ C:\Users\rsiripuram\Documents\testing project\IJP\JobPostService\obj\Debug\JobPo
 C:\Users\rsiripuram\Documents\testing project\IJP\JobPostService\obj\Debug\JobPostService.csproj.CopyComplete
 C:\Users\rsiripuram\Documents\testing project\IJP\JobPostService\obj\Debug\JobPostService.dll
 C:\Users\rsiripuram\Documents\testing project\IJP\JobPostService\obj\Debug\JobPostService.pdb
+C:\Users\rsiripuram\Documents\IJP\JobPostService\bin\RabbitMQ.Client.dll
+C:\Users\rsiripuram\Documents\IJP\JobPostService\bin\System.Buffers.dll
+C:\Users\rsiripuram\Documents\IJP\JobPostService\bin\System.Memory.dll
+C:\Users\rsiripuram\Documents\IJP\JobPostService\bin\System.Numerics.Vectors.dll
+C:\Users\rsiripuram\Documents\IJP\JobPostService\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\rsiripuram\Documents\IJP\JobPostService\bin\System.Threading.Channels.dll
+C:\Users\rsiripuram\Documents\IJP\JobPostService\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\rsiripuram\Documents\IJP\JobPostService\bin\RabbitMQ.Client.xml
+C:\Users\rsiripuram\Documents\IJP\JobPostService\bin\System.Buffers.xml
+C:\Users\rsiripuram\Documents\IJP\JobPostService\bin\System.Memory.xml
+C:\Users\rsiripuram\Documents\IJP\JobPostService\bin\System.Numerics.Vectors.xml
+C:\Users\rsiripuram\Documents\IJP\JobPostService\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\rsiripuram\Documents\IJP\JobPostService\bin\System.Threading.Channels.xml
+C:\Users\rsiripuram\Documents\IJP\JobPostService\bin\System.Threading.Tasks.Extensions.xml

@@ -168,7 +168,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\EmployeeSkillController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\JobPostController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -238,6 +240,18 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\JobPost\Create.cshtml" />
+    <Content Include="Views\JobPost\Delete.cshtml" />
+    <Content Include="Views\JobPost\Details.cshtml" />
+    <Content Include="Views\JobPost\Edit.cshtml" />
+    <Content Include="Views\JobPost\Index.cshtml" />
+    <Content Include="Views\EmployeeSkill\Create.cshtml" />
+    <Content Include="Views\EmployeeSkill\Delete.cshtml" />
+    <Content Include="Views\EmployeeSkill\Details.cshtml" />
+    <Content Include="Views\EmployeeSkill\Edit.cshtml" />
+    <Content Include="Views\EmployeeSkill\GetByEmployeeId.cshtml" />
+    <Content Include="Views\EmployeeSkill\GetBySkillId.cshtml" />
+    <Content Include="Views\EmployeeSkill\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
